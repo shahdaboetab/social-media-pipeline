@@ -9,7 +9,7 @@ producer = KafkaProducer(
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
 
-# --- Your NewsAPI Key ---
+# ---NewsAPI Key ---
 API_KEY = "6c795e247392452ea10580e276108eb2" # Replace with your actual key
 
 # --- Keywords to filter by ---
